@@ -3,7 +3,6 @@ from .forms import Product
 from django.http import HttpResponse
 
 
-
 def clients(request):
     return render(request, "clients.html", {})
 
